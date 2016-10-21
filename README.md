@@ -1,6 +1,6 @@
 # mongodb_library
 
-Being a newbie in python, I decided to share a simple library I created to establish the connection to a mongdb database, insert and query data. This is a working in progress that should have more methods added as soon I acquire additional knowledge on the subject. 
+Being a newbie on python and mongodb, I decided to share a simple library I created to establish the connection to a mongdb database, insert and query data. This is a working in progress that should have more methods added as soon as I acquire additional knowledge on the subject. 
 
 For this exercise I used a layout borrowed from a Mint transactions file in csv format. So the .py files starting with "mint_" contains specific code for this example.
 
@@ -8,7 +8,7 @@ Below the explanation for each of the files:
 
 - mint_insert.py
 
-Initial code to read the records from the input file and insert into the database. I calls the python support libraries, the mongo library and the configuration library. This code calls te mongo_connection library to establish connection, set database, drop and create the collection and insert records into database
+Initial code to read the records from the input file and insert into the database. It calls the python support libraries, the mongo library and the configuration library. This code calls te mongo_connection library to establish connection, set database, drop and create the collection and insert records into database
 
 - mint_conf.py
 
